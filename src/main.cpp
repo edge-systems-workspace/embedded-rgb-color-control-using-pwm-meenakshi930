@@ -25,7 +25,7 @@ void setup() {
 }
 
 void loop() {
-    // -------- DIGITAL MODE --------
+
     digitalWrite(RED_pin, HIGH);
     delay(1000);
 
@@ -33,6 +33,10 @@ void loop() {
     delay(1000);
     analogWrite(RED_pin, 255);   // Red ON
     analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
+    analogWrite(RED_pin, 0);
+    analogWrite(GREEN_pin, 255); // Green ON
     analogWrite(BLUE_pin, 0);
     delay(1000);
 }
