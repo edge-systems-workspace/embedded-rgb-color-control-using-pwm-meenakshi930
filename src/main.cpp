@@ -39,4 +39,9 @@ void loop() {
     analogWrite(GREEN_pin, 255); // Green ON
     analogWrite(BLUE_pin, 0);
     delay(1000);
+
+    analogWrite(RED_pin, 0);
+    analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 255);  // Blue ON
+    delay(1000);
 }
