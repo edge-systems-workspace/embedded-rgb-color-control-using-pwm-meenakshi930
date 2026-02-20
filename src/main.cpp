@@ -44,4 +44,5 @@ void loop() {
     analogWrite(GREEN_pin, 0);
     analogWrite(BLUE_pin, 255);  // Blue ON
     delay(1000);
+    delay(500);
 }
