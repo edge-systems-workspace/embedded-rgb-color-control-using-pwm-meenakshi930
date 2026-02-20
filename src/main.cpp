@@ -31,4 +31,8 @@ void loop() {
 
     digitalWrite(RED_pin, LOW);
     delay(1000);
+    analogWrite(RED_pin, 255);   // Red ON
+    analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
 }
